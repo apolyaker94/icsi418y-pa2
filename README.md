@@ -11,10 +11,6 @@ Express server with two routes, `POST /signup` and `POST /login`, that talk to a
 MongoDB Atlas database. Users are stored in the `users` collection of the `pa2`
 database with the fields `f_name`, `l_name`, `username`, and `password`.
 
-Every result (account created, username taken, wrong password, missing fields,
-server not running, etc.) shows up as a message under the form so you never have
-to open the console.
-
 ## Running it
 
 You need two terminals.
